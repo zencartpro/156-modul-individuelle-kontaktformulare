@@ -16,5 +16,6 @@ Das Plugin verfügt über drei administrative Schnittstellen:
 * Konfiguration > Individuelle Kontaktformulare für allgemeine Einstellungen
 * Webshop > Individuelle Kontaktformulare erstellen/bearbeiten um die Formulare zu generieren
 * Kunden > Individuelle Kontaktformulare Dashboard um die Antworten der Kunden zu sehen
+
 Bei der Installation werden keine bestehenden Dateien überschrieben (außer einer optionalen Änderung einer.htaccess-Datei), so dass die Installation sehr einfach ist und keine Probleme bei zukünftigen Zen Cart Updates verursachen sollte.
 
