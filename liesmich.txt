@@ -1,0 +1,71 @@
+Individuelle Kontaktformulare 1.3.0 für Zen Cart 1.5.6 deutsch
+
+deutsche Übersetzung/Anpassung des Moduls Custom Forms von wvasconcelos für die deutsche Zen Cart Version
+
+Änderungen gegenüber dem Originalmodul
+- Installer auf Auto-Installer umgestellt
+- komplett auf deutsch übersetzt
+- Anpassungen für 1.5.6 und PHP 7.3
+- fehlende Unterstützung für die Hilfe Icons in den Formularen ergänzt
+
+
+=================
+BESCHREIBUNG
+=================
+Wenn Sie die Möglichkeit benötigen, einfach und effektiv Formulare in Ihrem Shop zu erstellen und bereitzustellen, um Ihre Kommunikation mit Ihren Kunden zu verbessern, ist dieses Plugin das Richtige für Sie. 
+Es ermöglicht sehr einfach und intuitiv eine unbegrenzte Anzahl von Formularseiten zu erstellen und zu verwalten, die jeweils eine unbegrenzte Anzahl von Feldern enthalten, die von Textfeldern, Textbereichen, Dropdown-Listen, Kontrollkästchen, Radio-Buttons bis zu Datei-Uploads reichen.
+Das Plugin verfügt über drei administrative Schnittstellen: 
+- Konfiguration > Individuelle Kontaktformulare für allgemeine Einstellungen
+- Webshop > Individuelle Kontaktformulare erstellen/bearbeiten um die Formulare zu generieren
+- Kunden > Individuelle Kontaktformulare Dashboard um die Antworten der Kunden zu sehen
+Bei der Installation werden keine bestehenden Dateien überschrieben (außer einer optionalen Änderung einer.htaccess-Datei), so dass die Installation sehr einfach ist und keine Probleme bei zukünftigen Zen Cart Updates verursachen sollte.
+
+==================
+INSTALLATION
+==================
+
+Dieses Modul ist nur für die deutsche Zen Cart 1.5.6 Version geeignet
+
+Empfehlung:
+
+Dieses Modul erst in einem Testsystem einbauen und dort konfigurieren/testen und endgültig an die eigenen Wünsche anpassen. Erst dann in einem Liveshop einsetzen! Sichern Sie unbedingt alle Dateien Ihres Shops per FTP und sichern Sie die Datenbank mit phpMyAdmin oder anderen geeigneten Tools!
+
+WICHTIG
+Vor dem Einbau dieser Änderungen:
+BACKUP von Shop und Datenbank machen!
+Keine Haftung, Verwendung auf eigene Gefahr!
+BACKUP gemacht? Ok, dann weiterlesen...
+
+Die Installation erfolgt in folgenden Schritten. Halten Sie diesen Ablauf ein!
+
+1. Benennen Sie im Ordner NEUE DATEIEN den Ordner DEINADMIN auf den Namen Ihres Adminverzeichnisses um.
+2. Benennen Sie im Ordner NEUE DATEIEN alle ordner namens DEINTEMPLATE auf den Namen Ihres im Shop aktiven Templates um (z.B. responsive_classic)
+3. Loggen Sie sich in Ihre Zen Cart Shopadministration ein.
+4. Laden Sie nun die Ordner/Dateien aus dem Ordner NEUE DATEIEN in der vorgegebenen Struktur ins Zen Cart Verzeichnis hoch. Dabei werden keinerlei bestehende Dateien überschrieben.
+5. Clicken Sie nun in Ihrer Zen Cart Administration auf irgendeinen Menüpunkt, Sie sollten oben grüne Erfolgsmeldungen sehen.
+6. In den Kontaktformularen sind auch Uploads von Dateien möglich. Um diese Funktionalität nutzen zu können muss folgende Datei im Shopverzeichnis geändert werden: images/uploads/.htaccess
+   Im Ordner GEAENDERTE DATEIEN finden Sie die bereits geänderte .htaccess. Laden Sie die hoch und ersetzen Ihre bestehende images/uploads/.htaccess damit
+7. Geben Sie mit Ihrem FTP Programm dem Ordner images/uploads/tmp Schreibrechte (chmod 777)
+
+
+==================
+KONFIGURATION
+==================
+Unter Konfiguration > Individuelle Kontaktformulare finden Sie generelle Einstellungen. Tragen Sie Ihre E-Mail-Adresse unter der Option E-Mails ein und stellen Sie ein welche allgemeinen Felder in jedem Ihrer späteren individuellen Kontaktformulare enthalten sein sollen und welche Felder davon Pflichtfelder sein sollen.
+Erstellen Sie nun Ihr erstes neues Formular unter Webshop > Individuelle Kontaktformulare hinzufügen/bearbeiten
+Der Vorgang sollte selbsterklärend sein. Wählen Sie zunächst den generellen Typ des Feldes. Je nach Typ (z.B, bei Radio oder Dropdown erscheinen dann zusätzliche Optionen, mit denen Sie die jeweiligen Antwortvarianten hinzufügen können.
+Beschreibung meint immer einen Hilfetext, der im Formular dann durch Mouseover über das jeweilige Fragezeichen eingeblendet wird.
+Der Link zu Ihrem Formular wird Ihnen angezeigt, diesen Link verlinken Sie dann wo auch immer Sie zu diesem Formular linken wollen (Produktbeschreibungen, Kategorienbeschreibungen, EZ-Pages, Define Pages oder externe Seiten)
+Unter Kunden > Individuelle Kontaktformularer Dashboard finden Sie später die erfolgreich über das Kontaktformular abgesandten Nachrichten.
+Um die Formulare weiter zu stylen die includes/templates/DEINTEMPLATE/css/custom_forms.css entsprechend bearbeiten.
+
+
+==================
+DEINSTALLATION
+==================
+
+Um das Modul komplett zu entfernen:
+1. Alle von diesem Modul neu hinzugefügten Dateien vom Server löschen
+2. Änderung in der images/uploads/.htaccess wieder rückgängig machen
+3. Im Ordner UNINSTALL die uninstall.sql mit einem Texteditor öffnen und den Inhalt kopieren
+4. Kopierten Inhalt absenden unter Tools > SQL Patches installieren
