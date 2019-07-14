@@ -44,6 +44,7 @@ define('INFO_HEAD_DELETE_REQUEST', 'Anfrage löschen');
 define('INFO_DELETE_REQUEST_CONFIRM', 'Wollen Sie diese Anfrage wirklich löschen?');
 define('INFO_EDIT_REQUEST', 'Anfrage bearbeiten');
 define('INFO_FORM_STATUS_LABEL', 'Status');
+define('INFO_HEAD_FIELDS_SECTION_TITLE', 'Titel');
 
 define('PAGINATION_LABEL','Zeige %s bis %s (von %s Nachrichten)');
 
