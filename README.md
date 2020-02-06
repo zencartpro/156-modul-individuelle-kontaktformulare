@@ -1,6 +1,10 @@
 # 156-modul-individuelle-kontaktformulare
 Individuelle Kontaktformulare für Zen Cart 1.5.6 deutsch
 
+Hinweis: 
+Freigegebene getestete Versionen für den Einsatz in Livesystemen ausschließlich unter Releases herunterladen:
+https://github.com/zencartpro/156-modul-individuelle-kontaktformulare/releases
+
 deutsche Übersetzung/Anpassung des Moduls Custom Forms von wvasconcelos für die deutsche Zen Cart Version
 
 Änderungen gegenüber dem Originalmodul
@@ -8,7 +12,6 @@ deutsche Übersetzung/Anpassung des Moduls Custom Forms von wvasconcelos für di
 - komplett auf deutsch übersetzt
 - Anpassungen für 1.5.6 und PHP 7.3
 - fehlende Unterstützung für die Hilfe Icons in den Formularen ergänzt
-
 
 Wenn Sie die Möglichkeit benötigen, einfach und effektiv Formulare in Ihrem Shop zu erstellen und bereitzustellen, um Ihre Kommunikation mit Ihren Kunden zu verbessern, ist dieses Plugin das Richtige für Sie. 
 Es ermöglicht sehr einfach und intuitiv eine unbegrenzte Anzahl von Formularseiten zu erstellen und zu verwalten, die jeweils eine unbegrenzte Anzahl von Feldern enthalten, die von Textfeldern, Textbereichen, Dropdown-Listen, Kontrollkästchen, Radio-Buttons bis zu Datei-Uploads reichen.
